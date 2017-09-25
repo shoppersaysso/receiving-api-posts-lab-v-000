@@ -2,5 +2,5 @@ Rails.application.routes.draw do
   get 'home', to: 'static#home'
   resources :orders
   resources :invoices
-  resources :product
+  resources :products, only: [:show, :index, :new, :create]
 end
