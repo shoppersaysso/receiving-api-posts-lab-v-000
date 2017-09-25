@@ -41,7 +41,6 @@ group :development, :test do
   gem 'capybara'
   gem 'faker'
   gem 'shoulda'
-  gem 'selenium-webdriver'
   gem 'poltergeist', '~> 1.14.0'
 end
 
