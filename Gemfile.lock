@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/yaauie/cliver
+  revision: 5617ce6d9e611cd84d8e8af6119238fe543fedfc
+  ref: 5617ce
+  specs:
+    cliver (0.3.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -54,7 +61,6 @@ GEM
       xpath (~> 2.0)
     case_transform (0.2)
       activesupport
-    cliver (0.3.2)
     coderay (1.1.0)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
@@ -204,6 +210,7 @@ DEPENDENCIES
   active_model_serializers
   byebug
   capybara
+  cliver!
   coffee-rails (~> 4.1.0)
   faker
   jbuilder (~> 2.0)
